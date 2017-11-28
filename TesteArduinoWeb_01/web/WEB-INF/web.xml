@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <welcome-file-list>
+        <welcome-file>login.jsp</welcome-file>
+    </welcome-file-list>
+    <!--    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>servlets.LoginServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>CadastroServlet</servlet-name>
+        <servlet-class>servlets.CadastroServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>DownloadServlet</servlet-name>
+        <servlet-class>servlets.DownloadServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>PerfilServlet</servlet-name>
+        <servlet-class>servlets.PerfilServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ContatoServlet</servlet-name>
+        <servlet-class>servlets.ContatoServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/LoginServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>CadastroServlet</servlet-name>
+        <url-pattern>/CadastroServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>DownloadServlet</servlet-name>
+        <url-pattern>/DownloadServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>PerfilServlet</servlet-name>
+        <url-pattern>/PerfilServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ContatoServlet</servlet-name>
+        <url-pattern>/ContatoServlet</url-pattern>
+    </servlet-mapping>-->
+    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>servlet.LoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/LoginServlet</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>CadastroServlet</servlet-name>
+        <servlet-class>servlet.CadastroServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CadastroServlet</servlet-name>
+        <url-pattern>/CadastroServlet</url-pattern>
+    </servlet-mapping>
+    
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>
